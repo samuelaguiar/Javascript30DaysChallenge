@@ -1,0 +1,56 @@
+#topbar {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0 40px 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.9) 10%, rgba(0, 0, 0, 0) 100%);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: white;
+  text-shadow: 1px 1px 3px black;
+}
+
+#topbar div {
+  margin: 0 20px;
+}
+
+#topbar div i {
+  margin-right: 12px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.back-arrow,
+.links {
+  padding: 10px;
+  display: flex;
+  transition: all 0.1s ease;
+}
+
+.back-arrow {
+  border: 1px solid transparent;
+  border-radius: 2px;
+}
+
+.back-arrow:hover {
+  border-color: white;
+}
+
+.links .fa-envelope:hover {
+  color: #eb6458;
+}
+
+.links .fa-linkedin:hover {
+  color: #317cd8;
+}
+
+.links .fa-github:hover {
+  color: #a285ce;
+}
