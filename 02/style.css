@@ -27,6 +27,20 @@ body {
     inset 0 0 10px black, 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
+@media (max-width: 450px) {
+  .clock {
+    width: 20rem;
+    height: 20rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .clock {
+    width: 15rem;
+    height: 15rem;
+  }
+}
+
 .clock-center {
   position: absolute;
   z-index: 1;
