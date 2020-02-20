@@ -8,12 +8,12 @@ const data = [
     day: "DAY TWO",
     href: "02",
     title: "JS + CSS Clock"
+  },
+  {
+    day: "DAY THREE",
+    href: "03",
+    title: "Playing with CSS Variables and JS"
   }
-  // {
-  //   day: "DAY THREE",
-  //   href: "03",
-  //   title: "Playing with CSS Variables and JS"
-  // },
   // {
   //   day: "DAY FOUR",
   //   href: '04',
