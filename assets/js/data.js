@@ -13,12 +13,12 @@ const data = [
     day: "DAY THREE",
     href: "03",
     title: "Playing with CSS Variables and JS"
+  },
+  {
+    day: "DAY FOUR",
+    href: "04",
+    title: "Array Cardio Day 1"
   }
-  // {
-  //   day: "DAY FOUR",
-  //   href: '04',
-  //   title: "Array Cardio Day 1"
-  // },
   // {
   //   day: "DAY FIVE",
   //   href: '05',

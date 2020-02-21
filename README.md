@@ -7,7 +7,7 @@ Live preview in [sam-javascript30.netlify.com](http://sam-javascript30.netlify.c
 - [x] Day 01 - JS Drum Kit
 - [x] Day 02 - JS + CSS Clock
 - [x] Day 03 - Playing with CSS Variables and JS
-- [ ] Day 04 - Array Cardio Day 1
+- [x] Day 04 - Array Cardio Day 1
 - [ ] Day 05 - Flex Panels Image Gallery
 - [ ] Day 06 - Ajax Type Ahead
 - [ ] Day 07 - Array Cardio Day 2
