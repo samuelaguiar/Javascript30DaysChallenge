@@ -18,12 +18,12 @@ const data = [
     day: "DAY FOUR",
     href: "04",
     title: "Array Cardio Day 1"
+  },
+  {
+    day: "DAY FIVE",
+    href: "05",
+    title: "Flex Panels Image Gallery"
   }
-  // {
-  //   day: "DAY FIVE",
-  //   href: '05',
-  //   title: "Flex Panels Image Gallery"
-  // },
   // {
   //   day: "DAY SIX",
   //   href: '06',
