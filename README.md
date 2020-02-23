@@ -9,7 +9,7 @@ Live preview in [sam-javascript30.netlify.com](http://sam-javascript30.netlify.c
 - [x] Day 03 - Playing with CSS Variables and JS
 - [x] Day 04 - Array Cardio Day 1
 - [x] Day 05 - Flex Panels Image Gallery
-- [ ] Day 06 - Ajax Type Ahead
+- [x] Day 06 - Ajax Type Ahead
 - [ ] Day 07 - Array Cardio Day 2
 - [ ] Day 08 - Fun with HTML5 Canvas
 - [ ] Day 09 - 14 Must Know Dev Tools Tricks

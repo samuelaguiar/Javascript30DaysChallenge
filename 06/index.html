@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Type Ahead 👀</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../assets/css/topbar.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <form class="search-form">
+      <input type="text" class="search" placeholder="City or State" />
+      <ul class="suggestions">
+        <li>Filter for a city</li>
+        <li>or a state</li>
+      </ul>
+    </form>
+    <script>
+      const endpoint =
+        "https://gist.githubusercontent.com/Miserlou/c5cd8364bf9b2420bb29/raw/2bf258763cdddd704f8ffd3ea9a3e81d25e2c6f6/cities.json";
+      const cities = [];
+
+      fetch(endpoint)
+        .then(blob => blob.json())
+        .then(data => cities.push(...data));
+
+      const emptySearch = `
+        <li>Filter for a city</li>
+        <li>or a state</li>
+      `;
+
+      function findMatches(cities, word) {
+        const regex = new RegExp(word, "gi");
+        return cities.filter(
+          cityData => cityData.city.match(regex) || cityData.state.match(regex)
+        );
+      }
+
+      function displayMatches() {
+        const matches = findMatches(cities, this.value);
+        const regex = new RegExp(this.value, "gi");
+
+        const html = matches
+          .map(place => {
+            const city = place.city.replace(
+              regex,
+              `<span class="hl">${this.value}</span>`
+            );
+            const state = place.state.replace(
+              regex,
+              `<span class="hl">${this.value}</span>`
+            );
+
+            return `
+            <li>
+              <span>${city}, ${state}</span>
+            </li>
+          `;
+          })
+          .join("");
+
+        this.value.length
+          ? (suggestions.innerHTML = html)
+          : (suggestions.innerHTML = emptySearch);
+      }
+
+      const searchInput = document.querySelector(".search");
+      const suggestions = document.querySelector(".suggestions");
+
+      searchInput.addEventListener("keyup", displayMatches);
+      searchInput.addEventListener("change", displayMatches);
+
+      findMatches(cities, "hi");
+    </script>
+    <script src="../assets/js/topbar.js"></script>
+  </body>
+</html>

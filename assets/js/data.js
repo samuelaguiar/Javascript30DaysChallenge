@@ -23,12 +23,12 @@ const data = [
     day: "DAY FIVE",
     href: "05",
     title: "Flex Panels Image Gallery"
+  },
+  {
+    day: "DAY SIX",
+    href: "06",
+    title: "Ajax Type Ahead"
   }
-  // {
-  //   day: "DAY SIX",
-  //   href: '06',
-  //   title: "Ajax Type Ahead"
-  // },
   // {
   //   day: "DAY SEVEN",
   //   href: '07',
