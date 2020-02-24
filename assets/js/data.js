@@ -28,12 +28,12 @@ const data = [
     day: "DAY SIX",
     href: "06",
     title: "Ajax Type Ahead"
+  },
+  {
+    day: "DAY SEVEN",
+    href: "07",
+    title: "Array Cardio Day 2"
   }
-  // {
-  //   day: "DAY SEVEN",
-  //   href: '07',
-  //   title: "Array Cardio Day 2"
-  // },
   // {
   //   day: "DAY EIGHT",
   //   href: '08',
