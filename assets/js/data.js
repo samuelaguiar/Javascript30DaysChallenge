@@ -33,12 +33,12 @@ const data = [
     day: "DAY SEVEN",
     href: "07",
     title: "Array Cardio Day 2"
+  },
+  {
+    day: "DAY EIGHT",
+    href: "08",
+    title: "Fun with HTML5 Canvas"
   }
-  // {
-  //   day: "DAY EIGHT",
-  //   href: '08',
-  //   title: "Fun with HTML5 Canvas"
-  // },
   // {
   //   day: "DAY NINE",
   //   href: '09',
