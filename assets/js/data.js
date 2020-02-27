@@ -38,12 +38,12 @@ const data = [
     day: "DAY EIGHT",
     href: "08",
     title: "Fun with HTML5 Canvas"
+  },
+  {
+    day: "DAY NINE",
+    href: "09",
+    title: "14 Must Know Dev Tools Tricks"
   }
-  // {
-  //   day: "DAY NINE",
-  //   href: '09',
-  //   title: "14 Must Know Dev Tools Tricks"
-  // },
   // {
   //   day: "DAY TEN",
   //   href: '10',

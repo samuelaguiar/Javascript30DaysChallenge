@@ -12,7 +12,7 @@ Live preview in [sam-javascript30.netlify.com](http://sam-javascript30.netlify.c
 - [x] Day 06 - Ajax Type Ahead
 - [x] Day 07 - Array Cardio Day 2
 - [x] Day 08 - Fun with HTML5 Canvas
-- [ ] Day 09 - 14 Must Know Dev Tools Tricks
+- [x] Day 09 - 14 Must Know Dev Tools Tricks
 - [ ] Day 10 - Hold Shift to Check Multiple Checkboxes
 - [ ] Day 11 - Custom HTML5 Video Player
 - [ ] Day 12 - Key Sequence Detection (KONAMI CODE)
