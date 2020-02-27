@@ -43,12 +43,12 @@ const data = [
     day: "DAY NINE",
     href: "09",
     title: "14 Must Know Dev Tools Tricks"
+  },
+  {
+    day: "DAY TEN",
+    href: "10",
+    title: "Hold Shift to Check Multiple Checkboxes"
   }
-  // {
-  //   day: "DAY TEN",
-  //   href: '10',
-  //   title: "Hold Shift to Check Multiple Checkboxes"
-  // },
   // {
   //   day: "DAY ELEVEN",
   //   href: '11',
