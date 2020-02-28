@@ -48,12 +48,12 @@ const data = [
     day: "DAY TEN",
     href: "10",
     title: "Hold Shift to Check Multiple Checkboxes"
+  },
+  {
+    day: "DAY ELEVEN",
+    href: "11",
+    title: "Custom HTML5 Video Player"
   }
-  // {
-  //   day: "DAY ELEVEN",
-  //   href: '11',
-  //   title: "Custom HTML5 Video Player"
-  // },
   // {
   //   day: "DAY TWELVE",
   //   href: '12',
