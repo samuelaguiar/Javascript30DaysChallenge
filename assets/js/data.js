@@ -53,12 +53,12 @@ const data = [
     day: "DAY ELEVEN",
     href: "11",
     title: "Custom HTML5 Video Player"
+  },
+  {
+    day: "DAY TWELVE",
+    href: "12",
+    title: "Key Sequence Detection (KONAMI CODE)"
   }
-  // {
-  //   day: "DAY TWELVE",
-  //   href: '12',
-  //   title: "Key Sequence Detection (KONAMI CODE)"
-  // },
   // {
   //   day: "DAY THIRTEEN",
   //   href: '13',
