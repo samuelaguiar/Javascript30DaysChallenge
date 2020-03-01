@@ -58,12 +58,12 @@ const data = [
     day: "DAY TWELVE",
     href: "12",
     title: "Key Sequence Detection (KONAMI CODE)"
+  },
+  {
+    day: "DAY THIRTEEN",
+    href: "13",
+    title: "Slide In on Scroll"
   }
-  // {
-  //   day: "DAY THIRTEEN",
-  //   href: '13',
-  //   title: "Slide In on Scroll"
-  // },
   // {
   //   day: "DAY FOURTEEN",
   //   href: '14',
