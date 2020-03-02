@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Reference VS Copy</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../assets/css/topbar.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <script>
+      // start with strings, numbers and booleans
+
+      // Let's say we have an array
+      const players = ["Wes", "Sarah", "Ryan", "Poppy"];
+      const playersCopy = [...players];
+      playersCopy.push("Sam");
+      players.push("Malena");
+      console.log(players, playersCopy);
+
+      // with Objects
+      const person = {
+        name: "Wes Bos",
+        age: 80
+      };
+      const persontwo = Object.assign({}, person);
+      persontwo.number = 99;
+      console.log(person, persontwo);
+
+      // Things to note - this is only 1 level deep - both for Arrays and Objects. lodash has a cloneDeep method, but you should think twice before using it.
+    </script>
+    <script src="../assets/js/topbar.js"></script>
+  </body>
+</html>

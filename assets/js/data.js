@@ -63,12 +63,12 @@ const data = [
     day: "DAY THIRTEEN",
     href: "13",
     title: "Slide In on Scroll"
+  },
+  {
+    day: "DAY FOURTEEN",
+    href: "14",
+    title: "Object and Arrays - Reference VS Copy"
   }
-  // {
-  //   day: "DAY FOURTEEN",
-  //   href: '14',
-  //   title: "Object and Arrays - Reference VS Copy"
-  // },
   // {
   //   day: "DAY FIFTEEN",
   //   href: '15',
