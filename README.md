@@ -18,7 +18,7 @@ Live preview in [sam-javascript30.netlify.com](http://sam-javascript30.netlify.c
 - [x] Day 12 - Key Sequence Detection (KONAMI CODE)
 - [x] Day 13 - Slide In on Scroll
 - [x] Day 14 - Object and Arrays - Reference VS Copy
-- [ ] Day 15 - LocalStorage and Event Delegation
+- [x] Day 15 - LocalStorage and Event Delegation
 - [ ] Day 16 - CSS Text Shadow Mouse Move Effect
 - [ ] Day 17 - Sorting Band Names without articles
 - [ ] Day 18 - Tally String Times with Reduce

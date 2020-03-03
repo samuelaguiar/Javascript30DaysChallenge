@@ -68,12 +68,12 @@ const data = [
     day: "DAY FOURTEEN",
     href: "14",
     title: "Object and Arrays - Reference VS Copy"
+  },
+  {
+    day: "DAY FIFTEEN",
+    href: "15",
+    title: "LocalStorage and Event Delegation"
   }
-  // {
-  //   day: "DAY FIFTEEN",
-  //   href: '15',
-  //   title: "LocalStorage and Event Delegation"
-  // },
   // {
   //   day: "DAY SIXTEEN",
   //   href: '16',
