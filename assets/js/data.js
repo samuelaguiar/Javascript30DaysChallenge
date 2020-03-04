@@ -73,12 +73,12 @@ const data = [
     day: "DAY FIFTEEN",
     href: "15",
     title: "LocalStorage and Event Delegation"
+  },
+  {
+    day: "DAY SIXTEEN",
+    href: "16",
+    title: "CSS Text Shadow Mouse Move Effect"
   }
-  // {
-  //   day: "DAY SIXTEEN",
-  //   href: '16',
-  //   title: "CSS Text Shadow Mouse Move Effect"
-  // },
   // {
   //   day: "DAY SEVENTEEN",
   //   href: '17',
