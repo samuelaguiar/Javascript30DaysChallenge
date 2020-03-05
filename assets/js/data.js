@@ -78,12 +78,12 @@ const data = [
     day: "DAY SIXTEEN",
     href: "16",
     title: "CSS Text Shadow Mouse Move Effect"
+  },
+  {
+    day: "DAY SEVENTEEN",
+    href: "17",
+    title: "Sorting Band Names without articles"
   }
-  // {
-  //   day: "DAY SEVENTEEN",
-  //   href: '17',
-  //   title: "Sorting Band Names without articles"
-  // },
   // {
   //   day: "DAY EIGHTEEN",
   //   href: '18',

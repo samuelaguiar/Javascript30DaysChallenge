@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sort Without Articles</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../assets/css/topbar.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <ul id="bands"></ul>
+
+    <script>
+      const bands = [
+        "The Plot in You",
+        "The Devil Wears Prada",
+        "Pierce the Veil",
+        "Norma Jean",
+        "The Bled",
+        "Say Anything",
+        "The Midway State",
+        "We Came as Romans",
+        "Counterparts",
+        "Oh, Sleeper",
+        "A Skylit Drive",
+        "Anywhere But Here",
+        "An Old Dog"
+      ];
+
+      function removeArticle(name) {
+        return name.replace(/^(a |an |the )/i, "").trim();
+      }
+
+      const bandsUl = document.querySelector("#bands");
+      bandsUl.innerHTML = bands
+        .sort((a, b) => (removeArticle(a) > removeArticle(b) ? 1 : -1))
+        .map(band => `<li>${band}</li>`)
+        .join("");
+    </script>
+    <script src="../assets/js/topbar.js"></script>
+  </body>
+</html>
