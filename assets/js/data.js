@@ -83,12 +83,12 @@ const data = [
     day: "DAY SEVENTEEN",
     href: "17",
     title: "Sorting Band Names without articles"
+  },
+  {
+    day: "DAY EIGHTEEN",
+    href: "18",
+    title: "Tally String Times with Reduce"
   }
-  // {
-  //   day: "DAY EIGHTEEN",
-  //   href: '18',
-  //   title: "Tally String Times with Reduce"
-  // },
   // {
   //   day: "DAY NINETEEN",
   //   href: '19',
