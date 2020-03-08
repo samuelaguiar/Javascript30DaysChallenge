@@ -88,17 +88,17 @@ const data = [
     day: "DAY EIGHTEEN",
     href: "18",
     title: "Tally String Times with Reduce"
+  },
+  {
+    day: "DAY NINETEEN",
+    href: "19",
+    title: "Unreal Webcam Fun"
   }
   // {
-  //   day: "DAY NINETEEN",
-  //   href: '19',
-  //   title: "Unreal Webcam Fun"
-  // },
-  // {
   //   day: "DAY TWENTY",
-  //   href: '20',
+  //   href: "20",
   //   title: "Native Speech Recognition"
-  // },
+  // }
   // {
   //   day: "DAY TWENTY",
   //   href: '21',

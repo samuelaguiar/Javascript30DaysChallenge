@@ -22,7 +22,7 @@
   margin-right: 12px;
 }
 
-a {
+#topbar a {
   color: white;
   text-decoration: none;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);

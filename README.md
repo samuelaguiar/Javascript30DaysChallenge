@@ -22,7 +22,7 @@ Live preview in [sam-javascript30.netlify.com](http://sam-javascript30.netlify.c
 - [x] Day 16 - CSS Text Shadow Mouse Move Effect
 - [x] Day 17 - Sorting Band Names without articles
 - [x] Day 18 - Tally String Times with Reduce
-- [ ] Day 19 - Unreal Webcam Fun
+- [x] Day 19 - Unreal Webcam Fun
 - [ ] Day 20 - Native Speech Recognition
 - [ ] Day 21 - Geolocation based Speedometer and Compass
 - [ ] Day 22 - Follow Along Links
