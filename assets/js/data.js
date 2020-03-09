@@ -93,12 +93,12 @@ const data = [
     day: "DAY NINETEEN",
     href: "19",
     title: "Unreal Webcam Fun"
+  },
+  {
+    day: "DAY TWENTY",
+    href: "20",
+    title: "Native Speech Recognition"
   }
-  // {
-  //   day: "DAY TWENTY",
-  //   href: "20",
-  //   title: "Native Speech Recognition"
-  // }
   // {
   //   day: "DAY TWENTY",
   //   href: '21',
