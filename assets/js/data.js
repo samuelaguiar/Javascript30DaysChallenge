@@ -98,49 +98,49 @@ const data = [
     day: "DAY TWENTY",
     href: "20",
     title: "Native Speech Recognition"
+  },
+  {
+    day: "DAY TWENTY ONE",
+    href: "21",
+    title: "Geolocation based Speedometer and Compass"
   }
   // {
-  //   day: "DAY TWENTY",
-  //   href: '21',
-  //   title: "Geolocation based Speedometer and Compass"
-  // },
-  // {
-  //   day: "DAY TWENTY",
+  //   day: "DAY TWENTY TWO",
   //   href: '22',
   //   title: "Follow Along Links"
   // },
   // {
-  //   day: "DAY TWENTY",
+  //   day: "DAY TWENTY THREE",
   //   href: '23',
   //   title: "Speech Synthesis"
   // },
   // {
-  //   day: "DAY TWENTY",
+  //   day: "DAY TWENTY FOUR",
   //   href: '24',
   //   title: "Sticky Nav"
   // },
   // {
-  //   day: "DAY TWENTY",
+  //   day: "DAY TWENTY FIVE",
   //   href: '25',
   //   title: "Event Capture, Propagation, Bubbling and Once"
   // },
   // {
-  //   day: "DAY TWENTY",
+  //   day: "DAY TWENTY SIX",
   //   href: '26',
   //   title: "Stripe Follow Along Dropdown"
   // },
   // {
-  //   day: "DAY TWENTY",
+  //   day: "DAY TWENTY SEVEN",
   //   href: '27',
   //   title: "Click and Drag to Scroll"
   // },
   // {
-  //   day: "DAY TWENTY",
+  //   day: "DAY TWENTY EIGHT",
   //   href: '28',
   //   title: "Video Speed Controller UI"
   // },
   // {
-  //   day: "DAY TWENTY",
+  //   day: "DAY TWENTY NINE",
   //   href: '29',
   //   title: "Countdown Clock"
   // },
