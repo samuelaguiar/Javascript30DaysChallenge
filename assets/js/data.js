@@ -103,12 +103,12 @@ const data = [
     day: "DAY TWENTY ONE",
     href: "21",
     title: "Geolocation based Speedometer and Compass"
+  },
+  {
+    day: "DAY TWENTY TWO",
+    href: "22",
+    title: "Follow Along Links"
   }
-  // {
-  //   day: "DAY TWENTY TWO",
-  //   href: '22',
-  //   title: "Follow Along Links"
-  // },
   // {
   //   day: "DAY TWENTY THREE",
   //   href: '23',

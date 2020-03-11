@@ -25,7 +25,7 @@ Live preview in [sam-javascript30.netlify.com](http://sam-javascript30.netlify.c
 - [x] Day 19 - Unreal Webcam Fun
 - [x] Day 20 - Native Speech Recognition
 - [x] Day 21 - Geolocation based Speedometer and Compass
-- [ ] Day 22 - Follow Along Links
+- [x] Day 22 - Follow Along Links
 - [ ] Day 23 - Speech Synthesis
 - [ ] Day 24 - Sticky Nav
 - [ ] Day 25 - Event Capture, Propagation, Bubbling and Once
