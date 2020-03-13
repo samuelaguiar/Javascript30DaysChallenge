@@ -108,12 +108,12 @@ const data = [
     day: "DAY TWENTY TWO",
     href: "22",
     title: "Follow Along Links"
+  },
+  {
+    day: "DAY TWENTY THREE",
+    href: "23",
+    title: "Speech Synthesis"
   }
-  // {
-  //   day: "DAY TWENTY THREE",
-  //   href: '23',
-  //   title: "Speech Synthesis"
-  // },
   // {
   //   day: "DAY TWENTY FOUR",
   //   href: '24',
