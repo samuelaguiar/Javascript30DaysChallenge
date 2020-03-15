@@ -118,12 +118,12 @@ const data = [
     day: "DAY TWENTY FOUR",
     href: "24",
     title: "Sticky Nav"
+  },
+  {
+    day: "DAY TWENTY FIVE",
+    href: "25",
+    title: "Event Capture, Propagation, Bubbling and Once"
   }
-  // {
-  //   day: "DAY TWENTY FIVE",
-  //   href: '25',
-  //   title: "Event Capture, Propagation, Bubbling and Once"
-  // },
   // {
   //   day: "DAY TWENTY SIX",
   //   href: '26',
