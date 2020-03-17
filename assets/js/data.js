@@ -123,12 +123,12 @@ const data = [
     day: "DAY TWENTY FIVE",
     href: "25",
     title: "Event Capture, Propagation, Bubbling and Once"
+  },
+  {
+    day: "DAY TWENTY SIX",
+    href: "26",
+    title: "Stripe Follow Along Dropdown"
   }
-  // {
-  //   day: "DAY TWENTY SIX",
-  //   href: '26',
-  //   title: "Stripe Follow Along Dropdown"
-  // },
   // {
   //   day: "DAY TWENTY SEVEN",
   //   href: '27',
