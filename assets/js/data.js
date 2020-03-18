@@ -128,12 +128,12 @@ const data = [
     day: "DAY TWENTY SIX",
     href: "26",
     title: "Stripe Follow Along Dropdown"
+  },
+  {
+    day: "DAY TWENTY SEVEN",
+    href: "27",
+    title: "Click and Drag to Scroll"
   }
-  // {
-  //   day: "DAY TWENTY SEVEN",
-  //   href: '27',
-  //   title: "Click and Drag to Scroll"
-  // },
   // {
   //   day: "DAY TWENTY EIGHT",
   //   href: '28',
