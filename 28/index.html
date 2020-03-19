@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Speed Scrubber</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../assets/css/topbar.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <video
+        class="flex"
+        width="765"
+        height="430"
+        src="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4"
+        loop
+        controls
+      ></video>
+      <div class="speed">
+        <div class="speed-bar">1×</div>
+      </div>
+    </div>
+
+    <script>
+      const MIN = 0.4;
+      const MAX = 4;
+      const speed = document.querySelector(".speed");
+      const bar = document.querySelector(".speed-bar");
+      const video = document.querySelector(".flex");
+
+      function handleMove(e) {
+        const y = e.pageY - this.offsetTop;
+        const percent = y / this.offsetHeight;
+        const height = Math.round(percent * 100) + "%";
+        const playbackRate = percent * (MAX - MIN) + MIN;
+        bar.style.height = height;
+        bar.textContent = playbackRate.toFixed(2) + "x";
+        video.playbackRate = playbackRate;
+      }
+
+      speed.addEventListener("mousemove", handleMove);
+    </script>
+    <script src="../assets/js/topbar.js"></script>
+  </body>
+</html>
