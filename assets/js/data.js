@@ -133,20 +133,20 @@ const data = [
     day: "DAY TWENTY SEVEN",
     href: "27",
     title: "Click and Drag to Scroll"
+  },
+  {
+    day: "DAY TWENTY EIGHT",
+    href: "28",
+    title: "Video Speed Controller UI"
+  },
+  {
+    day: "DAY TWENTY NINE",
+    href: "29",
+    title: "Countdown Clock"
+  },
+  {
+    day: "DAY THIRTY",
+    href: "30",
+    title: "Whack A Mole Game"
   }
-  // {
-  //   day: "DAY TWENTY EIGHT",
-  //   href: '28',
-  //   title: "Video Speed Controller UI"
-  // },
-  // {
-  //   day: "DAY TWENTY NINE",
-  //   href: '29',
-  //   title: "Countdown Clock"
-  // },
-  // {
-  //   day: "DAY THIRTY",
-  //   href: '30',
-  //   title: "Whack A Mole Game"
-  // }
 ];
